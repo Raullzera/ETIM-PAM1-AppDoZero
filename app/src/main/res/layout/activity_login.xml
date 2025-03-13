@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/LoginLayout"
+    android:orientation="vertical"
+    android:background="#FFEB3B"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tela de Login"
+        android:gravity="center"
+        android:background="#DE08C2"
+        android:padding="15dp"
+        android:layout_margin="50dp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <EditText android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#673AB7"
+        android:padding="10dp"
+        android:hint="Entre com o seu email"
+        android:layout_margin="20dp"
+        />
+
+    <EditText android:id="@+id/senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#673AB7"
+        android:hint="Entre com o sua Senha"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        />
+
+    <Button android:id="@+id/entrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENTRAR"
+        android:layout_margin="50dp"
+        android:backgroundTint="#FF5722"
+        android:padding="20dp"/>
+</LinearLayout>
